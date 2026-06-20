@@ -5,7 +5,11 @@ body {
 
 header {
     background-color: #00ccff;
-    color: #cba706;
+    color: #08286e;
+    height: 120px;
+}
+header h1 {
+    font-size: 50px;
 }
 main {
     background-color: aliceblue;
@@ -19,7 +23,7 @@ section {
 }
 h2 {
     color: #066fd8;
-    font-size: 22px;
+    font-size: 27px;
 }
 ul {
     border: 2px solid green;
