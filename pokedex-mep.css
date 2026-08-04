@@ -15,6 +15,7 @@ font-size: 4.5rem;
   font-size: 120%;
   width: 20vw;
   height: 50px;
+  border: 2px solid;
 }
 
 #pkmn-yellow {
@@ -24,6 +25,7 @@ font-size: 4.5rem;
   font-size: 120%;
   width: 20vw;
   height: 50px;
+  border: 2px solid;
 }
 
 #pkmn-gs {
@@ -33,6 +35,7 @@ font-size: 4.5rem;
   font-size: 120%;
   width: 20vw;
   height: 50px;
+  border: 2px solid;
 }
 
 #pkmn-crystal {
@@ -42,6 +45,7 @@ font-size: 4.5rem;
   font-size: 120%;
   width: 20vw;
   height: 50px;
+  border: 2px solid;
 }
 #pkmn-rs {
   background: linear-gradient(45deg, #e0115f, #e0115f 50%, #0f52ba 50%, #0f52ba 100%);
@@ -50,6 +54,7 @@ font-size: 4.5rem;
   font-size: 120%;
   width: 20vw;
   height: 50px;
+  border: 2px solid;
 }
 
 #pkmn-emerald {
@@ -59,6 +64,7 @@ font-size: 4.5rem;
   font-size: 120%;
   width: 20vw;
   height: 50px;
+  border: 2px solid;
 }
 
 #pkmn-frlg {
@@ -68,6 +74,7 @@ font-size: 4.5rem;
   font-size: 120%;
   width: 20vw;
   height: 50px;
+  border: 2px solid;
 }
 
 #pkmn-dp {
@@ -77,6 +84,7 @@ font-size: 4.5rem;
   font-size: 120%;
   width: 20vw;
   height: 50px;
+  border: 2px solid;
 }
 
 #pkmn-platinum {
@@ -86,6 +94,7 @@ font-size: 4.5rem;
   font-size: 120%;
   width: 20vw;
   height: 50px;
+  border: 2px solid;
 }
 
 #pkmn-hgss {
@@ -95,6 +104,7 @@ font-size: 4.5rem;
   font-size: 120%;
   width: 20vw;
   height: 50px;
+  border: 2px solid;
 }
 
 #pkmn-bw {
@@ -104,6 +114,7 @@ font-size: 4.5rem;
   font-size: 120%;
   width: 20vw;
   height: 50px;
+  border: 2px solid;
 }
 
 #pkmn-b2w2 {
@@ -113,5 +124,6 @@ font-size: 4.5rem;
   font-size: 120%;
   width: 20vw;
   height: 50px;
+  border: 2px solid;
 }
 
