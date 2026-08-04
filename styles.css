@@ -1,33 +1,79 @@
-body {
-    background-color: #f0ffff;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   --theme-color1: #00ccff;
+   --theme-color2: #066fd8;
+   --theme-color3: #fff127;
+   --theme-color4: #40ea1e;
 }
+body {
+   background-color: #f0ffff;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 
 header {
-    background-color: #00ccff;
-    color: #08286e;
-    height: 225px;
-    text-align: center;
+   background-color: var(--theme-color1);
+   color: #08286e;
+   height: 225px;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   gap: 30px;
+   border-bottom: var(--theme-color2) 12px solid;
 }
 header h1 {
-    font-size: 70px;
+   font-size: 70px;
 }
 main {
-    background-color: aliceblue;
+   background-color: aliceblue;
 }
 p {
-    font-size: 25px;
+   font-size: 25px;
 }
 
+
 section {
-    border: 3px solid #00ccff;
-    min-height: 150px;
+   border: 3px solid var(--theme-color1);
+   min-height: 150px;
 }
 h2 {
-    color: #066fd8;
-    font-size: 40px;
+   color: var(--theme-color2);
+   font-size: 40px;
+   background-color: var(--theme-color3);
 }
-ul {
-    border: 2px solid green;
-    color: green;
+
+
+button {
+   min-width: 16vw;
+   min-height: 12vh;
+   background-color: var(--theme-color4);
+   border: 5px solid #2bac12;
+   color: white;
+   font-size: 25px;
+   border-radius: 10px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.button_group {
+   display: flex;
+   gap: 30px;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   width: 75%;
+   margin: 20px auto;
+}
+
+
+.button-group1 {
+   display: flex;
+   flex-direction: column;
+   justify-content: end;
+   width: 30%;
+   height: 400px;
+}
+.button-group1 img {
+   width: 100%;
 }
