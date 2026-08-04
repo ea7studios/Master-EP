@@ -12,19 +12,17 @@ font-size: 4.5rem;
   background: linear-gradient(45deg, red, red 50%, blue 50%, blue 100%);
   color: #0f0;
   font-weight: bold;
-  font-size: 120%;
-  width: 20vw;
-  height: 50px;
+  font-size: 50px;
+  padding: 5px;
   border: 2px solid;
 }
 
 #pkmn-yellow {
-  background: repeating-linear-graident(45deg, #ff0, #ffd953 10%);
+  background-image: repeating-linear-gradient(45deg, #ff0, #ffd953 10%);
   color: #00f;
   font-weight: bold;
-  font-size: 120%;
-  width: 20vw;
-  height: 50px;
+  font-size: 50px;
+  padding: 5px;
   border: 2px solid;
 }
 
@@ -32,38 +30,32 @@ font-size: 4.5rem;
   background: linear-gradient(45deg, gold, gold 50%, silver 50%, silver 100%);
   color: blue;
   font-weight: bold;
-  font-size: 120%;
-  width: 20vw;
-  height: 50px;
+  font-size: 50px;
+  padding: 5px;
   border: 2px solid;
 }
 
 #pkmn-crystal {
-  background: repeating-linear-graident(45deg, #0ff, #43f7ff 10%);
+  background-image: repeating-linear-gradient(45deg, #0ff, #43f7ff 10%);
   color: #f00;
   font-weight: bold;
-  font-size: 120%;
-  width: 20vw;
-  height: 50px;
+  font-size: 50px;
+  padding: 5px;
   border: 2px solid;
 }
 #pkmn-rs {
   background: linear-gradient(45deg, #e0115f, #e0115f 50%, #0f52ba 50%, #0f52ba 100%);
   color: #0f0;
   font-weight: bold;
-  font-size: 120%;
-  width: 20vw;
-  height: 50px;
+  font-size: 50px;
   border: 2px solid;
 }
 
 #pkmn-emerald {
-  background: repeating-linear-graident(45deg, #50c878, green 10%);
+  background-image: repeating-linear-gradient(45deg, #50c878, green 10%);
   color: #f0f;
   font-weight: bold;
-  font-size: 120%;
-  width: 20vw;
-  height: 50px;
+  font-size: 50px;
   border: 2px solid;
 }
 
@@ -71,9 +63,7 @@ font-size: 4.5rem;
   background: linear-gradient(45deg, #e75e32, #e75e32 50%, #9bdc32 50%, #9bdc32 100%);
   color: #ff0;
   font-weight: bold;
-  font-size: 120%;
-  width: 20vw;
-  height: 50px;
+  font-size: 50px;
   border: 2px solid;
 }
 
@@ -81,19 +71,15 @@ font-size: 4.5rem;
   background: linear-gradient(45deg, #4ee2ec, #4ee2ec 50%, #e7accf 50%, #e7accf 100%);
   color: #f00;
   font-weight: bold;
-  font-size: 120%;
-  width: 20vw;
-  height: 50px;
+  font-size: 50px;
   border: 2px solid;
 }
 
 #pkmn-platinum {
-  background: repeating-linear-graident(45deg, #d9d9d9, #c7c7c9 10%);
+  background-image: repeating-linear-gradient(45deg, #d9d9d9, #c7c7c9 10%);
   color: #000;
   font-weight: bold;
-  font-size: 120%;
-  width: 20vw;
-  height: 50px;
+  font-size: 50px;
   border: 2px solid;
 }
 
@@ -101,9 +87,7 @@ font-size: 4.5rem;
   background: linear-gradient(45deg, #ffd400, #ffd400 50%, #e7ffff 50%, #e7ffff 100%);
   color: #0df;
   font-weight: bold;
-  font-size: 120%;
-  width: 20vw;
-  height: 50px;
+  font-size: 50px;
   border: 2px solid;
 }
 
@@ -111,19 +95,14 @@ font-size: 4.5rem;
   background: linear-gradient(45deg, #111, #111 50%, #eee 50%, #eee 100%);
   color: #999;
   font-weight: bold;
-  font-size: 120%;
-  width: 20vw;
-  height: 50px;
+  font-size: 50px;
   border: 2px solid;
 }
 
 #pkmn-b2w2 {
-  background: linear-graident(45deg, #122, #122 50%, #ffe 50%, #ffe 100%);
+  background: linear-gradient(45deg, #122, #122 50%, #ffe 50%, #ffe 100%);
   color: #9a9;
   font-weight: bold;
-  font-size: 120%;
-  width: 20vw;
-  height: 50px;
+  font-size: 50px;
   border: 2px solid;
 }
-
