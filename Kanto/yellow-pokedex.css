@@ -1,0 +1,245 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+body {
+   background-color:#ffe;
+}
+header {
+   background: #ffff00;
+   color: blue;
+   text-align: center;
+   padding: 15px;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header h1 {
+   font-size: 4.5rem;
+}
+header p {
+   font-size: 1.5rem;
+}
+.pokemon-holder {
+   display: flex;
+   flex-wrap: wrap;
+}
+.h2-1 {
+   background-color: gold;
+   color: goldenrod;
+   height: 10vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 2.5rem;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+@media screen and (max-width: 1440px) {
+   .pokemon {
+       display: block;
+       border: 2px solid yellow;
+       width: calc(25% - 20px);
+       margin: 10px;
+       height: 250px;
+       box-sizing: border-box;
+       background-color: rgba(155,155,155,0.2);
+       text-align: center;
+       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+       border-radius: 15px;
+       box-shadow: 0 0 7px 0 yellow;
+   }
+}
+
+
+@media screen and (max-width: 1080px) {
+   .pokemon{
+       display: block;
+       border: 2px solid yellow;
+       width: calc(33% - 20px);
+       margin: 10px;
+       height: 250px;
+       box-sizing: border-box;
+       background-color: rgba(155,155,155,0.2);
+       text-align: center;
+       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+       border-radius: 15px;
+       box-shadow: 0 0 7px 0 yellow;
+   }
+  
+}
+
+
+@media screen and (max-width: 720px) {
+   .pokemon {
+       display: block;
+       border: 2px solid yellow;
+       width: calc(50% - 20px);
+       margin: 10px;
+       height: 250px;
+       box-sizing: border-box;
+       background-color: rgba(155,155,155,0.2);
+       text-align: center;
+       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+       border-radius: 15px;
+       box-shadow: 0 0 7px 0 yellow;
+   }
+}
+
+
+@media screen and (max-width: 360px) {
+   .pokemon{
+       display: block;
+       border: 2px solid yellow;
+       width: calc(100% - 20px);
+       margin: 10px;
+       height: 250px;
+       box-sizing: border-box;
+       background-color: rgba(155,155,155,0.2);
+       text-align: center;
+       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+       border-radius: 15px;
+       box-shadow: 0 0 7px 0 yellow;
+   }
+  
+}
+img {
+   height: 160px;
+   image-rendering: pixelated;
+   transform: scaleX(-1);
+}
+.fast-facts {
+   border: 5px solid black;
+   border-radius: 5px;
+   padding: 2px;
+   width: 25%;
+   margin-left: auto;
+}
+a:link {
+   color: #ffff80;
+}
+a:visited {
+   color: #ffff00;
+}
+.seen {
+   filter:grayscale(100%);
+}
+.locked {
+   filter:contrast(0%);
+}
+
+
+.close {
+   filter:contrast(5%);
+}
+.normal1 {
+   background-color: #c7c7c9;
+   color: black;
+}
+.fire1 {
+   background-color: #f05353;
+   color: cyan;
+}
+.water1 {
+   background-color: #33b4ff;
+   color: yellow;
+}
+.grass1 {
+   background-color: #54ea68;
+   color: magenta;
+}
+.electric1 {
+   background-color: #ffd953;
+   color: blue;
+}
+.ice1 {
+   background-color: #43f7ff;
+   color: red;
+}
+.fighting1 {
+   background-color: #ffa200;
+   color: blue;
+}
+.poison1 {
+   background-color: #9730c7;
+   color: #0f0;
+}
+.ground1 {
+   background-color: #d8ab36;
+   color: blue;
+}
+.flying1 {
+   background-color: #76c5ec;
+   color: red;
+}
+.psychic1 {
+   background-color: #e76393;
+   color: #0f0;
+}
+.bug1 {
+   background-color: #bad353;
+   color: blue;
+}
+.rock1 {
+   background-color: #a7a15f;
+   color: cyan;
+}
+.ghost1 {
+   background-color: #470992;
+   color: #0f0;
+}
+.dragon1 {
+   background-color: #7e66ff;
+   color: yellow;
+}
+
+
+
+
+
+
+
+
+.normal2 {
+   border: 10px solid #979799;
+}
+.fire2 {
+   border: 10px solid #c02323;
+}
+.water2 {
+   border: 10px solid #0384cf;
+}
+.grass2 {
+   border: 10px solid #24ba38;
+}
+.electric2 {
+   border: 10px solid #cfa923;
+}
+.ice2 {
+   border: 10px solid #23d7df;
+}
+.fighting2 {
+   border: 10px solid #cf7200;
+}
+.poison2 {
+   border: 10px solid #670097;
+}
+.ground2 {
+   border: 10px solid #a87b06;
+}
+.flying2 {
+   border: 10px solid #4695bc;
+}
+.psychic2 {
+   border: 10px solid #b73363;
+}
+.bug2 {
+   border: 10px solid #8aa323;
+}
+.rock2 {
+   border: 10px solid #77712f;
+}
+.ghost2 {
+   border: 10px solid #170962;
+}
+.dragon2 {
+   border: 10px solid #4e36cf;
+}
+
