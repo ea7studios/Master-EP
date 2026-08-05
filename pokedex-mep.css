@@ -5,7 +5,7 @@
 }
 
 body {
-  background-image: repeating-linear-gradient(60deg, #cff, #fcf 3.3%, #ffc 6.6%, #cff 10%);
+  background-image: repeating-linear-gradient(90deg, #cff, #fcf 1.25%, #ffc 6.75%, #cff 10%);
 }
 
 h1 {
