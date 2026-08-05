@@ -5,7 +5,7 @@
 }
 
 body {
-  background-image: repeating-linear-graidient(30deg, #ccf, #fcc 3.3%, #cfc 6.6%, #ccf 10%);
+  background-image: repeating-linear-gradient(30deg, #ccf, #fcc 3.3%, #cfc 6.6%, #ccf 10%);
 }
 
 h1 {
@@ -13,6 +13,13 @@ h1 {
   font-size: 4.5rem;
   text-align: center;
 }
+
+h2 {
+  color: green;
+  font-size: 3rem;
+  width: 100%;
+  text-align: center;
+  background-color: linear-gradient(90deg, #340, #070 20%, #070 80%, #043 100%)
 
 #pkmn-rb {
   background: linear-gradient(45deg, red, red 50%, blue 50%, blue 100%);
