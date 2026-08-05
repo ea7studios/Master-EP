@@ -20,6 +20,7 @@ h2 {
   width: 100%;
   text-align: center;
   background-color: linear-gradient(90deg, #340, #070 20%, #070 80%, #043 100%)
+}
 
 #pkmn-rb {
   background: linear-gradient(45deg, red, red 50%, blue 50%, blue 100%);
