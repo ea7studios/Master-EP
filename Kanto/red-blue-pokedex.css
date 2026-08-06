@@ -6,7 +6,7 @@ body {
    background-color:aliceblue;
 }
 header {
-   background: linear-gradient(red, blue);
+   background: linear-gradient(90deg, red, blue);
    color: white;
    text-align: center;
    padding: 15px;
@@ -37,7 +37,8 @@ header p {
 @media screen and (max-width: 1440px) {
    .pokemon {
        display: block;
-       border: 2px solid rgb(0, 0, 255) rgb(255,0,0);
+       border: 2px solid;
+       border: blue red;
        width: calc(25% - 20px);
        margin: 10px;
        height: 250px;
@@ -54,7 +55,8 @@ header p {
 @media screen and (max-width: 1080px) {
    .pokemon{
        display: block;
-       border: 2px solid rgb(0, 0, 255) rgb(255,0,0);
+       border: 2px solid;
+       border: blue red;
        width: calc(33% - 20px);
        margin: 10px;
        height: 250px;
@@ -72,7 +74,8 @@ header p {
 @media screen and (max-width: 720px) {
    .pokemon {
        display: block;
-       border: 2px solid rgb(0, 0, 255) rgb(255,0,0);
+       border: 2px solid;
+       border: blue red;
        width: calc(50% - 20px);
        margin: 10px;
        height: 250px;
@@ -89,7 +92,8 @@ header p {
 @media screen and (max-width: 360px) {
    .pokemon{
        display: block;
-       border: 2px solid rgb(0, 0, 255) rgb(255,0,0);
+       border: 2px solid;
+       border: blue red;
        width: calc(100% - 20px);
        margin: 10px;
        height: 250px;
